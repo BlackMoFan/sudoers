@@ -1,2 +1,2 @@
-# sudoers
-samasama store
+# Sudoers
+SAMASAma store
