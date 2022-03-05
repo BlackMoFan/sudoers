@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAMA-SAma Store</title>
-    <link href="./style.css" rel="stylesheet">
+    <link href="./style/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -21,45 +21,43 @@
             <li class="dropdown">
               <a class="dropbtn">Category</a>
               <div class="dropdown-content">
-                <a>Link 1</a>
-                <a>Link 2</a>
-                <a>Link 3</a>
+                <a>Products</a>
+                <a>Services</a>
               </div>
             </li>
 
             <li class="dropdown">
               <a class="dropbtn">Assistance</a>
               <div class="dropdown-content">
-                <a>Link 1</a>
-                <a>Link 2</a>
-                <a>Link 3</a>
+                <a>Customer Service</a>
+                <a>Contact</a>
               </div>
             </li>
 
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a class="dropbtn">Contact</a>
               <div class="dropdown-content">
                 <a>Link 1</a>
                 <a>Link 2</a>
                 <a>Link 3</a>
               </div>
-            </li>
+            </li> -->
           </ul>
         </div>
       </section>
       <section class="sub-nav">
         <ul class="utilities">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Services</li>
-          <li><i class="fa fa-bell"></i></li>
-          <li><i class="fa fa-clipboard" aria-hidden="true"></i></li>
-          <li><i class="fa fa-user" aria-hidden="true"></i></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="./components/about.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#"><i class="fa fa-bell"></i></a></li>
+          <li><a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
         </ul>
       </section>
     </section>
-  </header>
+  </header> <!-- Header section -->
   <!-- Main section -->
   <main>
     <!-- Banner -->
@@ -316,6 +314,8 @@
         <label for="message">Message</label>
         <br>
         <textarea id="message" name="message" rows="5" cols="40"></textarea>
+        <br />
+        <input type="button" value="Submit">
       </form>
     </section> <!-- Get in touch -->
   </main>
