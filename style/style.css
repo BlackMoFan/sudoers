@@ -29,6 +29,10 @@ h1 {
   margin-right: 90px;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   color: orange;
 }
@@ -147,6 +151,10 @@ main {
   color: black;
 }
 
+.search-bar i {
+  cursor: pointer;
+}
+
 .banner-texts {
   text-align: center;
 }
@@ -156,7 +164,6 @@ main {
 }
 
 .banner-buttons input{
-  border: 1px white solid;
   font-size: 20px;
   display: inline-block;
   border-radius: 5px;
@@ -165,11 +172,13 @@ main {
 }
 
 .banner input[value*='Get Started'] {
+  border: 1px rgb(87, 87, 167) solid;
   background: rgb(87, 87, 167);
   cursor: pointer;
 }
 
 .banner input[value*='Learn More'] {
+  border: 1px #e9bcb7 solid;
   background: #e9bcb7;
   cursor: pointer;
 }
@@ -221,6 +230,7 @@ input[value*='Add to cart'] {
   padding: 1rem;
   border: 1px transparent solid;
   border-radius: 1rem;
+  cursor: pointer;
 }
 
 .product-price {
