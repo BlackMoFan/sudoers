@@ -50,7 +50,7 @@ a:hover {
 
 .dropdowns,
 .dropdown {
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 ul {
@@ -68,10 +68,11 @@ li {
   color: whitesmoke;
 }
 
-li a, .dropbtn {
+li a{
   display: inline-block;
   text-align: center;
-  padding: 14px 16px;
+  /* padding: 14px 16px; */
+  /* margin: 0.5rem; */
   text-decoration: none;
   cursor: pointer;
 }
@@ -104,7 +105,9 @@ li.dropdown {
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
 .dropdown:hover .dropdown-content {
+  padding: 1rem;
   display: block;
+  background-image: linear-gradient(to left, #e9bcb7 0%, #29524a 74%);
 }
 
 main {
@@ -141,6 +144,7 @@ main {
   border-style: none;
   padding: 1rem;
   max-width: 100%;
+  color: black;
 }
 
 .banner-texts {
@@ -162,10 +166,12 @@ main {
 
 .banner input[value*='Get Started'] {
   background: rgb(87, 87, 167);
+  cursor: pointer;
 }
 
 .banner input[value*='Learn More'] {
   background: #e9bcb7;
+  cursor: pointer;
 }
 
 .product-section {
@@ -221,7 +227,7 @@ input[value*='Add to cart'] {
   color: rgba(190, 184, 167, 0.7);
 }
 
-a {
+.product a {
   color: rgb(99, 99, 179);
   text-decoration: none;
 }
@@ -289,8 +295,19 @@ a {
   flex-direction: column;
 }
 
+.form-section input,
+.form-section textarea {
+  color: black;
+}
+
 .form-section label {
   margin-top: 1rem;
+}
+
+.form-section input[value*='Submit'] {
+  padding: 1rem;
+  background-color: #e9bcb7;
+  cursor: pointer;
 }
 
 footer {
